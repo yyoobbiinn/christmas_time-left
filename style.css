@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    background-image: url("tree.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto Slab', serif;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+}
+
+h1 {
+    margin: 0;
+    font-size: 84px;
+    font-weight: 900;
+}
+
+#clock {
+    margin: 0;
+    font-size: 40px;
+    font-weight: 100;
+}
+
+@media screen and (max-width: 900px) {
+    h1 {
+        font-size: 72px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #clock {
+        font-size: 28px;
+    }
+}
